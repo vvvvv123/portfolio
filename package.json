@@ -1,12 +1,12 @@
 {
-  "name": "modern_portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "Portfolio website",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "Brad Traversy",
+  "author": "Andriy Chemerynskiy",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.9.2"
