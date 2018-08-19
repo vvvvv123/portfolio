@@ -35,7 +35,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
     visibility: hidden;
 }
 
@@ -80,7 +79,7 @@
 .menu-branding .portrait {
     width: 250px;
     height: 250px;
-    background: url("../img/portrait.jpg");
+    background: url("../img/portrait-photo-sm.jpg");
     border-radius: 50%;
     border: solid 3px #eece1a;
 }
@@ -177,7 +176,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-    font-size: 6rem;
+    font-size: 45px;
 }
 
 h1.sm-heading,
@@ -207,7 +206,7 @@ main {
 }
 
 main .icons {
-    margin-top: 1rem;
+    margin-top: 45px;
 }
 
 main .icons a {
@@ -396,7 +395,7 @@ main#home {
     }
 
     .menu-branding .portrait {
-        background: url("../img/portrait_small.jpg");
+        background: url("../img/portrait-photo-small.jpg");
         width: 150px;
         height: 150px;
     }
@@ -411,11 +410,11 @@ main#home {
     }
 }
 
-@media screen and (max-width: 500px) {
-    main#home h1 {
-        margin-top: 10vh;
-    }
+.underline {
+    text-decoration: underline;
+}
 
+@media screen and (max-width: 500px) {
     .projects {
         grid-template-columns: 1fr;
     }
